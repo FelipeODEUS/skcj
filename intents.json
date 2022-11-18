@@ -1,0 +1,23 @@
+{"intents":[
+    {
+        "tag":"saudacao",
+        "patterns":["Ola! como voce esta?", "Oow", "Oi", "Ola", "E ai, tudo bem?", "Ei brow"],
+        "responses":["Ola! Obrigado por perguntar", "Fico feliz em te ver", "E ai brow", "Fala, mano!"]
+    },
+    {
+        "tag": "despedida",
+        "patterns": ["Good bye", "Faloow", "Adios", "Ate mais", "Tchau!", "Adeus", "Nos vemos na proxima"],
+        "responses":["Foi um prazer conversar com voce!", "Tchau!", "Bye, bye!", "Falou!"]
+    },
+    {
+        "tag": "agradecimento",
+        "patterns": ["Obrigado!", "Muito obrigado.", "Isso foi util", "Maravilha, obrigado!", "Obrigado por me ajudar!"],
+        "responses": ["Fico feliz em ajudar!", "Sempre que precisar", "Foi um prazer."]
+     },
+     {
+        "tag": "sem_resposta",
+        "patterns": [""],
+        "responses": ["Desculpe, nao consegui entender voce.", "Por favor de-me mais informacoes.", 
+                    "Acho que nao entendi."]
+     }
+]}
